@@ -54,12 +54,6 @@ var charToRGB = function (char) {
 };
 
 $(function () {
-  var i, color;
-  for (i = 0x21; i <= 0x7e; i++) {
-    color = '#' + asciiToColor(i);
-    $('#list').append("<p><font color='" + color + "'>" + String.fromCharCode(i) + "</font></p>");
-  }
-
   $('#textbox').keyup(function(){
     str = $('#textbox').val();
     color = strToColor(str);
