@@ -1,6 +1,6 @@
 ASCII文字列を固有のRGBカラーに変換する
 
-非ASCII文字列でもいけるかもしれないけど動作は保証されない
+非ASCII文字列でもいけるっぽい
 
 Usage
 ------
@@ -10,4 +10,6 @@ Usage
 Demo
 ------
 
-[Here](http://uiureo.github.com/chame/demo/)
+[ここ](http://uiureo.github.com/chame/demo/)
+
+フォームに入力するとその文字列の色が下に出る
