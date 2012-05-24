@@ -7,3 +7,7 @@ Usage
 
     'waffle'.toRGBCode();
 
+Demo
+------
+
+[Here](http://uiureo.github.com/chame/demo/)
