@@ -5,5 +5,5 @@ ASCII文字列を固有のRGBカラーに変換する
 Usage
 ------
 
-  'waffle'.toRGBCode();
+    'waffle'.toRGBCode();
 
