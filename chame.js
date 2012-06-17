@@ -23,9 +23,9 @@ String.prototype.toRGBCode = (function () {
       r += a[0]; g += a[1]; b += a[2];
     }
 
-    r /= str.length;
-    g /= str.length;
-    b /= str.length;
+    r = ~~(r / str.length);
+    g = ~~(g / str.length);
+    b = ~~(b / str.length);
 
     return [r,g,b];
   };
